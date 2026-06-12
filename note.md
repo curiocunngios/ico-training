@@ -1,7 +1,7 @@
-# curiocunngios (Alex)
+# 5/6/2026 agenda
 
 ## easypwn 20 mins
-
+- buffer overflow and modify return address to win function
 
 ## harderpwn 30 - 40 mins
 - tasks
@@ -26,3 +26,26 @@
     - system(), a libc library function written by other programmers
         - maybe a wrapper for execve() (syscall 59) 
 
+
+
+# 12/6/2026 agenda (brief)
+- the goal today is to understand the most basic UAF (Use-After-Free) vulnerability
+- will go through 3 examples
+    - two of them are kernel, which involves advanced exploitation techniques. 
+    - But the heap bug relate to the exact same concept, will focus and walk through that.
+
+
+## Example 1 (freebie-hard from pwn.college yellow belt heap challenge)
+- target: learn the basic UAF concept and get the flag
+
+
+## Exapmle 2 (UIUCTF babykernel)
+- Relatively easy kernel exploitation challenge
+- will walk through vulnerability analysis (heap bug) and brief attack flow
+- will not walk through detailed exploitation demonstration
+- can read solve script and analyse it yourself
+    - or ask me to vide record a demonstration to walk through each throught process
+
+## If time allows: Example 3 IPS (old kernel pwn challenge)
+- will walk through vulnerability analysis (heap bug)
+- will not walk through detailed exploitation demonstration
